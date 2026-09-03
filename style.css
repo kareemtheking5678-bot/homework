@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    overflow-x: hidden;
+}
+
+.s1{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9;
+}
+
+.navbar{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    padding: 0 40px;
+    box-shadow: 0 5px 0 rgba(190, 190, 190, .1);
+}
+
+.navdivs{
+    display: flex;
+    align-items: center;
+}
+
+.div2{
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.cartimg{
+    width: 20px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.heading{
+    font-family: "Pacifico", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+/* قسم الـ Hero الرئيسي */
+.se1{
+    min-height: 580px;
+    background-color: rgba(219, 219, 219, .1);
+    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(https://assets-global.website-files.com/5ba96977bf120e1b45986c06/5bc26c68ca643a35ff2e403f_scott-webb-268893-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 40px;
+}
+
+.se1left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mainleft{
+    max-width: 576px;
+}
+
+.pages{
+    color: #6c6c6c;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.p2:hover, .p3:hover, .p4:hover{
+    color: #000;
+}
+
+.p1{
+    color: #ac1313 !important;
+}
+
+.pa{
+    font-size: 14px;
+    color: #d77474 !important;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.mainimg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.mainimg img{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+
+.h1div h1{
+    font-size: 48px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.span1{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 68px;
+    font-weight: 400;
+    color: #ac1313;
+}
+
+.pdiv {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.pdiv p{
+    color: #6c6c6c;
+}
+
+.shop-bu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 201px;
+    height: 61px;
+    background-color: #ac1313;
+    cursor: pointer;
+}
+
+.shop-bu button{
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+/* فئات المنتجات والأيقونات */
+.se2 {
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.productCatogry-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-div-h3 h4{
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #d77474;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.product-div-h1 h1{
+    font-size: 48px;
+}
+
+.parentOFicons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.icons{
+    width: 240px;
+    height: 240px;
+    background-color: #ac1313;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon1{ background-color: #d2a760; }
+.icon1div{ background-color: #edbc6d; }
+.icon2{ background-color: #d85310; }
+.icon2div{ background-color: #f05b10; }
+.icon3div{ background-color: #b81313; }
+
+.icons p {
+    color: white;
+    font-weight: 300;
+}
+
+.icons img {
+    width: 70px;
+    height: auto;
+}
+
+.icon3-design{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon3-design-border{
+    border: 1px dashed white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.icondiv{
+    text-align: center;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.handcraftytext  {
+   
+   width: 54px;
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
+  transform: translateX(-20vw)  rotate(90deg) ;
+
+}
+.handcraftytext span{
+    display: block;
+    margin-right:6px;
+    color: #d3d3d3;
+}
+
+/* الكروت التعريفية */
+.producth1card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.card1 p{
+    color: #8a8a8a;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.card1 h1{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #f3f3f3;
+}
+.hr1 { margin: 60px 0; }
+.hr2 { margin: 60px 0; }
+
+/* قسم المنتجات المميزة (Gold & Black و Orange) */
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.productimg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundgray{
+    width: 80%;
+    height: 250px;
+    background-color: #f3f3f3;
+    position: absolute;
+    z-index: 1;
+}
+
+.productimg img{
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.producttext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.producttext h2 {
+    font-size: 36px;
+}
+
+.producttext p{
+    color: #6c6c6c;
+    line-height: 1.6;
+}
+
+.productlink{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+
+    width: fit-content;
+}
+
+.productlink::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ac1313;
+    bottom: -4px;
+    left: 0;
+}
+
+.afterp2{
+   color: #d3d3d3;
+    transform: translateX(50vw)  rotate(90deg);
+
+}
+
+/* قسم متجر الفخار (Pottery Collection) */
+.PotteryCollection{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.potterytitle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.potterytitle p{
+    color: #d77474;
+    font-size: 13px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.potterytitle h2{
+    font-size: 40px;
+}
+
+.potterycards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.potterycard{
+    border-bottom: 2px solid #c7c7c7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.potterycard:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.potterycard img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.potterycard h4{
+    color: #5d5d5d;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.potterycard p {
+    color: #ac1313;
+    font-weight: 600;
+}
+
+.viewb {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* قسم الترويج (Se4) */
+.se4{
+    position: relative;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0.4) 70%), url("https://assets-global.website-files.com/5ba96977bf120e1b45986c06/5bb966fd82df351adbb449c6_raul-cacho-oses-779595-unsplash-p-3200.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 80px;
+    margin-top: 100px;
+}
+
+.se4-left{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.se4-h1{
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.se4p{
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 1.6;
+}
+
+.se4span1{
+    color: #ac1313;
+    text-decoration: underline;
+}
+
+/* قسم النشرة البريدية (Se5) */
+.se5{
+    text-align: center;
+    padding: 100px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.se5top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.se5topba{
+    background-color: #ebb96a;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.se5topimg img {
+    width: 30px;
+    height: auto;
+}
+
+.se5mainh1{
+    font-size: 38px;
+    margin: 15px 0 35px 0;
+}
+
+.inputdiv1andbut{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+.inputdiv1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #e8ebe8;
+    height: 50px;
+    padding: 0 15px;
+    flex: 1;
+    background: #fff;
+}
+
+.sub{
+    height: 50px;
+    width: 140px;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.sub1 {
+   color: #ffffff;
+   font-size: 13px;
+   letter-spacing: 1px;
+}
+
+.sub:hover{
+    background-color: #ac1313;
+}
+
+.inputdiv1 img{
+   width: 20px;
+   opacity: 0.5;
+}
+
+.inputdiv1 input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+.inputdiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.se5 label {
+    color: #8a8a8a;
+    font-size: 14px;
+}
